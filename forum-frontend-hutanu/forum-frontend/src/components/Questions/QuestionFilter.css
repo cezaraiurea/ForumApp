@@ -1,0 +1,13 @@
+.question-filter {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .question-filter input {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+  

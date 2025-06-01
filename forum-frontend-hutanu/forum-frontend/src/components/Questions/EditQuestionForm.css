@@ -1,0 +1,57 @@
+.edit-question-form {
+  max-width: 720px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fffdf7;
+  border-radius: 14px;
+  box-shadow: 0 4px 24px rgba(78, 59, 8, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.edit-question-form h2 {
+  font-size: 1.8rem;
+  color: #4e3b08;
+  margin-bottom: 10px;
+}
+
+.edit-question-form input[type="text"],
+.edit-question-form textarea {
+  padding: 14px 16px;
+  font-size: 1rem;
+  border: 1px solid #ddd0b6;
+  border-radius: 8px;
+  resize: vertical;
+  font-family: inherit;
+  background-color: #fff;
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.edit-question-form textarea {
+  min-height: 140px;
+}
+
+.edit-question-form button {
+    background-color: #523b3d;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.edit-question-form button:hover {
+    background-color: #5f5052;
+}
+
+@media (max-width: 768px) {
+  .edit-question-form {
+    padding: 20px;
+    margin: 30px 16px;
+  }
+}
+
+ 
